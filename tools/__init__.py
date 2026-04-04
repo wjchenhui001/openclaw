@@ -8,24 +8,38 @@ from datetime import datetime
 import json
 import inspect
 
-@dataclass
-class ToolParameter:
-    """工具参数定义"""
-    name: str
-    type: str
-    description: str
-    required: bool = True
-    default: Any = None
+# 导出
+__all__ = ['Tool', 'ToolParameter', 'ToolRegistry', 'tool', 'execute_tool_call', 'registry']
 
-@dataclass
+# 实现将在下面定义
+
+# 全局注册表单例
+_registry_instance = None
+
+def _get_registry():
+    global _registry_instance
+    if _registry_instance is None:
+        _registry_instance = ToolRegistry()
+    return _registry_instance
+
+# 延迟定义类，避免循环导入
+class ToolParameter:
+    def __init__(self, name: str, type: str, description: str, required: bool = True, default: Any = None):
+        self.name = name
+        self.type = type
+        self.description = description
+        self.required = required
+        self.default = default
+
 class Tool:
-    """工具定义"""
-    name: str
-    description: str
-    function: Callable
-    parameters: list = field(default_factory=list)
-    category: str = "general"
-    requires_confirmation: bool = False
+    def __init__(self, name: str, description: str, function: Callable, parameters: list = None,
+                 category: str = "general", requires_confirmation: bool = False):
+        self.name = name
+        self.description = description
+        self.function = function
+        self.parameters = parameters or []
+        self.category = category
+        self.requires_confirmation = requires_confirmation
 
     def to_schema(self) -> Dict[str, Any]:
         properties = {}
@@ -52,14 +66,8 @@ class Tool:
         }
 
 class ToolRegistry:
-    """工具注册表 - 单例"""
-    _instance = None
-
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super().__new__(cls)
-            cls._instance._tools = {}
-        return cls._instance
+    def __init__(self):
+        self._tools = {}
 
     def register(self, tool: Tool):
         self._tools[tool.name] = tool
@@ -81,7 +89,8 @@ class ToolRegistry:
                 errors.append(f"Missing required parameter: {param.name}")
         return errors
 
-registry = ToolRegistry()
+# 全局注册表实例
+registry = _get_registry()
 
 def tool(name: str, description: str, category: str = "general", requires_confirmation: bool = False):
     def decorator(func: Callable):
@@ -98,6 +107,8 @@ def tool(name: str, description: str, category: str = "general", requires_confir
                     param_type = "integer"
                 elif param.annotation == bool:
                     param_type = "boolean"
+                elif param.annotation == float:
+                    param_type = "number"
             parameters.append(ToolParameter(
                 name=param_name,
                 type=param_type,
@@ -141,5 +152,3 @@ def execute_tool_call(tool_name: str, arguments: Dict[str, Any], auto_confirm: b
             "tool": tool_name,
             "timestamp": datetime.now().isoformat()
         }
-
-__all__ = ['Tool', 'ToolParameter', 'ToolRegistry', 'tool', 'execute_tool_call', 'registry']
