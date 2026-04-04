@@ -1,0 +1,17 @@
+{
+  "name": "openclaw-tavily-search",
+  "description": "Web search via Tavily AI API. Use when web_search is unavailable or more advanced results are needed.",
+  "version": "0.1.0",
+  "author": "jacky1n7 (forked for personal use)",
+  "license": "MIT-0",
+  "required_env_vars": ["TAVILY_API_KEY"],
+  "primary_credential": "TAVILY_API_KEY",
+  "commands": [
+    "python3 {baseDir}/scripts/tavily_search.py --query \"...\" --max-results 5",
+    "python3 {baseDir}/scripts/tavily_search.py --query \"...\" --max-results 5 --include-answer",
+    "python3 {baseDir}/scripts/tavily_search.py --query \"...\" --max-results 5 --format brave",
+    "python3 {baseDir}/scripts/tavily_search.py --query \"...\" --max-results 5 --format md"
+  ],
+  "always": false,
+  "security_notes": "This skill reads TAVILY_API_KEY from environment or ~/.openclaw/.env. Ensure the key is kept secure."
+}

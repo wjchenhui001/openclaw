@@ -94,6 +94,30 @@
       "note": "用户重视可视化输出，要求截图而不是文字描述页面内容",
       "recordedAt": "2026-04-04T20:39:00+08:00",
       "confidence": 1.0
+    },
+    {
+      "category": "voice_wake",
+      "key": "wake_word",
+      "value": "阿呆",
+      "note": "用户要求开启语音唤醒功能，唤醒词为「阿呆」",
+      "recordedAt": "2026-04-04T23:36:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "response",
+      "key": "interrupt_priority",
+      "value": "always_respond",
+      "note": "用户要求'随时打断，随时响应'，对延迟零容忍",
+      "recordedAt": "2026-04-04T23:36:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "input",
+      "key": "preferred_activation",
+      "value": "global_hotkey",
+      "note": "在语音唤醒方案中，用户选择全局快捷键方案（Cmd+Shift+A）",
+      "recordedAt": "2026-04-04T23:37:00+08:00",
+      "confidence": 1.0
     }
   ],
   "taboos": [
@@ -117,8 +141,8 @@
   "dailySummaries": {},
   "meta": {
     "version": 1,
-    "lastUpdated": "2026-04-04T21:06:00+08:00",
-    "totalInteractions": 11,
+    "lastUpdated": "2026-04-04T23:40:00+08:00",
+    "totalInteractions": 14,
     "autoBackup": true
   }
 }
