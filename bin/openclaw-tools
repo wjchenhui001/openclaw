@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+"""
+OpenClaw Tools CLI - 直接调用标准化工具
+用法:
+  openclaw-tools [--json] [--trust] <tool_name> [--param value]...
+
+示例:
+  openclaw-tools file_write --file test.txt --content "hello"
+  openclaw-tools --json web_search --query "OpenClaw" --count 3
+  openclaw-tools --trust shell_exec --command "ls -la"
+
+独立命令:
+  --list           列出所有工具及其 Schema
+  --list-tools     仅列出工具名称
+  --help          显示此帮助
+"""
+import sys
+import os
+import json
+from pathlib import Path
+
+# 添加 workspace 到路径
+workspace = Path(__file__).parent.parent.resolve()
+sys.path.insert(0, str(workspace))
+
+# 导入工具系统
+from tools import registry, execute_tool_call
+
+# 特殊命令处理
+if len(sys.argv) == 1 or '--help' in sys.argv:
+    print(__doc__)
+    sys.exit(0)
+
+if '--list' in sys.argv or '--list-tools' in sys.argv:
+    json_mode = '--json' in sys.argv or os.environ.get('OPENCLAW_JSON') == '1'
+    tools = registry.list_tools()
+    if json_mode:
+        print(json.dumps(tools, ensure_ascii=False, indent=2))
+    else:
+        print(f"Total tools: {len(tools)}\n")
+        print("{:<30} {:<20} {}".format("Tool", "Category", "Description"))
+        print("-"*80)
+        for t in sorted(tools, key=lambda x: x['name']):
+            print(f"{t['name']:<30} {t['category']:<20} {t['description'][:40]}...")
+    sys.exit(0)
+
+# 解析全局标志
+json_mode = '--json' in sys.argv
+trust_mode = '--trust' in sys.argv
+
+if json_mode:
+    os.environ['OPENCLAW_JSON'] = '1'
+    sys.argv.remove('--json')
+if trust_mode:
+    os.environ['OPENCLAW_TRUST'] = '1'
+    sys.argv.remove('--trust')
+
+# 需要工具名
+if len(sys.argv) < 2:
+    print(__doc__)
+    sys.exit(1)
+
+tool_name = sys.argv[1]
+
+# 解析参数（格式: --key value 或 --key=value）
+arguments = {}
+i = 2
+while i < len(sys.argv):
+    arg = sys.argv[i]
+    if arg.startswith('--'):
+        key = arg[2:]
+        if '=' in key:
+            key, value = key.split('=', 1)
+        else:
+            if i + 1 < len(sys.argv) and not sys.argv[i+1].startswith('--'):
+                value = sys.argv[i+1]
+                i += 1
+            else:
+                value = "true"  # 布尔标志
+        arguments[key] = value
+    else:
+        print(f"Warning: unexpected argument '{arg}' (skip)", file=sys.stderr)
+    i += 1
+
+# 调用工具
+result = execute_tool_call(tool_name, arguments, auto_confirm=os.environ.get('OPENCLAW_TRUST') == '1')
+
+# 输出结果
+if isinstance(result, str):
+    print(result)
+else:
+    if os.environ.get('OPENCLAW_JSON') == '1' or json_mode:
+        print(json.dumps(result, ensure_ascii=False))
+    else:
+        # 人类可读格式
+        if result.get('status') == 'success':
+            print(f"✅ {tool_name} succeeded")
+            if 'attempt' in result or 'attempts' in result.get('metadata', {}):
+                attempts = result.get('metadata', {}).get('attempt', result.get('metadata', {}).get('attempts', 1))
+                print(f"   Attempts: {attempts}")
+            # 显示结果内容（如果是字典）
+            res = result.get('result')
+            if isinstance(res, dict):
+                for k, v in res.items():
+                    if k in ['file', 'status', 'query', 'count']:
+                        print(f"   {k}: {v}")
+            else:
+                print(f"   Result: {res}")
+        else:
+            print(f"❌ {tool_name} failed: {result.get('error')}")
+            if result.get('metadata', {}).get('category'):
+                print(f"   Category: {result['metadata']['category']}")
+

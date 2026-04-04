@@ -133,33 +133,60 @@ def tool(name: str, description: str, category: str = "general", requires_confir
     return decorator
 
 def execute_tool_call(tool_name: str, arguments: Dict[str, Any], auto_confirm: bool = False) -> Dict[str, Any]:
-    """执行工具调用（简单版本，无重试）"""
+    """执行工具调用（简单版本，无重试）
+
+    环境变量支持：
+    - OPENCLAW_JSON: 强制 JSON 输出（用于脚本集成）
+    - OPENCLAW_TRUST: 自动确认所有可确认操作
+    """
+    import os
+
+    # 读取环境变量
+    json_mode = os.environ.get('OPENCLAW_JSON') == '1'
+    if os.environ.get('OPENCLAW_TRUST') == '1':
+        auto_confirm = True
+
     tool = registry.get(tool_name)
     if not tool:
-        return {"status": "error", "error": f"Tool not found: {tool_name}"}
+        err = {"status": "error", "error": f"Tool not found: {tool_name}"}
+        if json_mode:
+            return json.dumps(err)
+        return err
 
     validation_errors = registry.validate_input(tool_name, arguments)
     if validation_errors:
-        return {"status": "error", "error": "; ".join(validation_errors)}
+        err = {"status": "error", "error": "; ".join(validation_errors)}
+        if json_mode:
+            return json.dumps(err)
+        return err
 
     if tool.requires_confirmation and not auto_confirm:
-        return {"status": "error", "error": "Requires confirmation"}
+        err = {"status": "error", "error": "Requires confirmation"}
+        if json_mode:
+            return json.dumps(err)
+        return err
 
     try:
         result = tool.function(**arguments)
-        return {
+        success = {
             "status": "success",
             "result": result,
             "tool": tool_name,
             "timestamp": datetime.now().isoformat()
         }
+        if json_mode:
+            return json.dumps(success)
+        return success
     except Exception as e:
-        return {
+        error = {
             "status": "error",
             "error": str(e),
             "tool": tool_name,
             "timestamp": datetime.now().isoformat()
         }
+        if json_mode:
+            return json.dumps(error)
+        return error
 
 # 导出
 __all__ = [
