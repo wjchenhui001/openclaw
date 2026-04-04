@@ -8,38 +8,28 @@ from datetime import datetime
 import json
 import inspect
 
-# 导出
-__all__ = ['Tool', 'ToolParameter', 'ToolRegistry', 'tool', 'execute_tool_call', 'registry']
+# ============================================
+# 数据类
+# ============================================
 
-# 实现将在下面定义
-
-# 全局注册表单例
-_registry_instance = None
-
-def _get_registry():
-    global _registry_instance
-    if _registry_instance is None:
-        _registry_instance = ToolRegistry()
-    return _registry_instance
-
-# 延迟定义类，避免循环导入
+@dataclass
 class ToolParameter:
-    def __init__(self, name: str, type: str, description: str, required: bool = True, default: Any = None):
-        self.name = name
-        self.type = type
-        self.description = description
-        self.required = required
-        self.default = default
+    """工具参数定义"""
+    name: str
+    type: str
+    description: str
+    required: bool = True
+    default: Any = None
 
+@dataclass
 class Tool:
-    def __init__(self, name: str, description: str, function: Callable, parameters: list = None,
-                 category: str = "general", requires_confirmation: bool = False):
-        self.name = name
-        self.description = description
-        self.function = function
-        self.parameters = parameters or []
-        self.category = category
-        self.requires_confirmation = requires_confirmation
+    """工具定义"""
+    name: str
+    description: str
+    function: Callable
+    parameters: List[ToolParameter] = field(default_factory=list)
+    category: str = "general"
+    requires_confirmation: bool = False
 
     def to_schema(self) -> Dict[str, Any]:
         properties = {}
@@ -66,17 +56,23 @@ class Tool:
         }
 
 class ToolRegistry:
-    def __init__(self):
-        self._tools = {}
+    """工具注册表 - 单例模式"""
+    _instance = None
+
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+            cls._instance._tools = {}
+        return cls._instance
 
     def register(self, tool: Tool):
         self._tools[tool.name] = tool
         return self
 
-    def get(self, name: str):
+    def get(self, name: str) -> Optional[Tool]:
         return self._tools.get(name)
 
-    def list_tools(self):
+    def list_tools(self) -> List[Dict[str, Any]]:
         return [tool.to_schema() for tool in self._tools.values()]
 
     def validate_input(self, tool_name: str, input_data: Dict[str, Any]) -> List[str]:
@@ -89,10 +85,11 @@ class ToolRegistry:
                 errors.append(f"Missing required parameter: {param.name}")
         return errors
 
-# 全局注册表实例
-registry = _get_registry()
+# 全局注册表
+registry = ToolRegistry()
 
 def tool(name: str, description: str, category: str = "general", requires_confirmation: bool = False):
+    """装饰器：注册函数为标准化工具"""
     def decorator(func: Callable):
         sig = inspect.signature(func)
         parameters = []
@@ -128,15 +125,19 @@ def tool(name: str, description: str, category: str = "general", requires_confir
         return func
     return decorator
 
-def execute_tool_call(tool_name: str, arguments: Dict[str, Any], auto_confirm: bool = False):
+def execute_tool_call(tool_name: str, arguments: Dict[str, Any], auto_confirm: bool = False) -> Dict[str, Any]:
+    """执行工具调用"""
     tool = registry.get(tool_name)
     if not tool:
         return {"status": "error", "error": f"Tool not found: {tool_name}"}
+
     validation_errors = registry.validate_input(tool_name, arguments)
     if validation_errors:
         return {"status": "error", "error": "; ".join(validation_errors)}
+
     if tool.requires_confirmation and not auto_confirm:
         return {"status": "error", "error": "Requires confirmation"}
+
     try:
         result = tool.function(**arguments)
         return {
@@ -152,3 +153,9 @@ def execute_tool_call(tool_name: str, arguments: Dict[str, Any], auto_confirm: b
             "tool": tool_name,
             "timestamp": datetime.now().isoformat()
         }
+
+# 导出
+__all__ = [
+    'Tool', 'ToolParameter', 'ToolRegistry',
+    'tool', 'execute_tool_call', 'registry'
+]
