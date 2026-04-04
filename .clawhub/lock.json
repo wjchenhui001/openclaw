@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775301409087
+    },
+    "self-improving": {
+      "version": "1.2.16",
+      "installedAt": 1775301517176
+    },
+    "multi-search-engine": {
+      "version": "2.0.1",
+      "installedAt": 1775301606504
+    },
+    "memory-lancedb-pro": {
+      "version": "1.0.0",
+      "installedAt": 1775301870125
+    },
+    "lossless-claw": {
+      "version": "1.0.1",
+      "installedAt": 1775302037947
+    }
+  }
+}

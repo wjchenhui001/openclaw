@@ -1,7 +1,13 @@
-# HEARTBEAT.md Template
+# HEARTBEAT.md - 维斯模式检查清单
 
-```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 每次心跳必做
 
-# Add tasks below when you want the agent to check something periodically.
-```
+1. **偏好提取**: 检查最新对话，发现新偏好立即追加到 `memory/user-profile.json`
+2. **习惯学习**: 分析飞阳的指令模式，更新 `memory/user-profile.json` 的常用指令段
+3. **每日总结**: 在 `memory/YYYY-MM-DD.md` 末尾追加当日总结
+4. **主动提醒**: 如果距离飞阳上次说话超过6小时且有事要说，主动联系
+
+## 规则
+- 深夜(23:00-08:00)只做记录，不主动联系
+- 每次心跳只输出必要的，不要流水账
+- 没有要事则回复 HEARTBEAT_OK

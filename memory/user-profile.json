@@ -1,0 +1,124 @@
+{
+  "$schema": "user-preference-profile-v1",
+  "created": "2026-04-04T10:32:00+08:00",
+  "user": {
+    "name": "陈飞阳",
+    "callAs": "飞阳",
+    "timezone": "Asia/Shanghai"
+  },
+  "preferences": [
+    {
+      "category": "language",
+      "key": "response_language",
+      "value": "zh-CN",
+      "note": "用户要求用中文回复",
+      "recordedAt": "2026-04-04T10:32:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "communication",
+      "key": "no_filler",
+      "value": "skip_preamble",
+      "note": "不要说废话填充词，直奔主题",
+      "recordedAt": "2026-04-04T10:32:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "security",
+      "key": "root_enabled",
+      "value": true,
+      "note": "用户重视系统安全，主动开启 Root",
+      "recordedAt": "2026-04-04T10:32:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "learning",
+      "key": "thoroughness",
+      "value": "comprehensive_no_omission",
+      "note": "要求全面无遗漏的源码学习",
+      "recordedAt": "2026-04-04T10:32:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "communication",
+      "key": "address_as",
+      "value": "飞阳哥",
+      "note": "User prefers to be called '飞阳哥'",
+      "recordedAt": "2026-04-04T20:35:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "system",
+      "key": "camera_preference",
+      "value": "mac_builtin",
+      "note": "Prefers Mac built-in camera over phone pairing",
+      "recordedAt": "2026-04-04T20:24:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "automation",
+      "key": "reliable_reminders",
+      "value": "launchd",
+      "note": "Requires launchd for 100% reliable定时 reminders, not sleep/at",
+      "recordedAt": "2026-04-04T20:02:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "visualization",
+      "key": "screenshot_method",
+      "value": "browser_screenshot",
+      "note": "用户明确要求用 browser screenshot 获取 PNG 图片，而非 browser snapshot 返回结构化数据",
+      "recordedAt": "2026-04-04T20:39:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "communication",
+      "key": "instruction_style",
+      "value": "brief_direct",
+      "note": "用户喜欢简短直接的指令：'关闭'、'browser screenshot'、'你继续深度学习'",
+      "recordedAt": "2026-04-04T20:45:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "learning",
+      "key": "depth_requirement",
+      "value": "deep_apply_evolve",
+      "note": "用户要求'深度学习'并'应用知识'、'自我进化'，不只是阅读，要实际改进自身行为并生成报表",
+      "recordedAt": "2026-04-04T20:45:00+08:00",
+      "confidence": 1.0
+    },
+    {
+      "category": "output",
+      "key": "visual_preference",
+      "value": "screenshot_over_text",
+      "note": "用户重视可视化输出，要求截图而不是文字描述页面内容",
+      "recordedAt": "2026-04-04T20:39:00+08:00",
+      "confidence": 1.0
+    }
+  ],
+  "taboos": [
+    {
+      "key": "no_fake_success",
+      "note": "绝不伪造成功结果",
+      "recordedAt": "2026-04-04T10:32:00+08:00"
+    },
+    {
+      "key": "no_suppress_failure",
+      "note": "绝不压制失败",
+      "recordedAt": "2026-04-04T10:32:00+08:00"
+    },
+    {
+      "key": "no_emoji_default",
+      "note": "不用 emoji 除非要求",
+      "recordedAt": "2026-04-04T10:32:00+08:00"
+    }
+  ],
+  "interactionLog": [],
+  "dailySummaries": {},
+  "meta": {
+    "version": 1,
+    "lastUpdated": "2026-04-04T21:06:00+08:00",
+    "totalInteractions": 11,
+    "autoBackup": true
+  }
+}
