@@ -5,60 +5,82 @@
 import sys
 from pathlib import Path
 
-# 将 workspace 根目录加入路径（而非 tools/）
+# 确保 workspace 根目录在路径
 workspace = Path(__file__).parent.parent
 sys.path.insert(0, str(workspace))
 
-# 现在可以导入 tools 包
 from tools import registry
 
-print("📦 开始批量工具注册...")
+def run_registration():
+    print("📦 开始批量工具注册...\n")
 
-before = len(registry._tools)
+    before = len(registry._tools)
 
-# 1. 迁移核心工具（这会注册 4 个工具）
-print("\n1️⃣ 迁移核心工具...")
-try:
-    import tools.migration  # noqa
-    print(f"   ✅ 核心工具: {', '.join([t for t in registry._tools.keys() if t in ['file_write', 'feishu_message_send', 'web_search', 'git_commit']])}")
-except Exception as e:
-    print(f"   ❌ 核心工具迁移失败: {e}")
+    # 1. 核心工具
+    print("1️⃣ 迁移核心工具...")
+    try:
+        import tools.migration  # noqa
+        core = ['file_write', 'feishu_message_send', 'web_search', 'git_commit']
+        print(f"   ✅ 核心工具 ({len(core)}): {', '.join(core)}")
+    except Exception as e:
+        print(f"   ❌ 失败: {e}")
 
-# 2. 飞书工具
-print("\n2️⃣ 注册飞书工具...")
-try:
-    import tools.feishu_wrapper  # noqa
-    feishu_tools = [t for t in registry._tools.keys() if t.startswith('feishu_')]
-    print(f"   ✅ 飞书工具 ({len(feishu_tools)}): {', '.join(feishu_tools)}")
-except Exception as e:
-    print(f"   ❌ 飞书工具注册失败: {e}")
+    # 2. 飞书工具
+    print("\n2️⃣ 注册飞书工具...")
+    try:
+        import tools.feishu_wrapper  # noqa
+        feishu = [t for t in registry._tools.keys() if t.startswith('feishu_')]
+        print(f"   ✅ 飞书工具 ({len(feishu)}): {', '.join(feishu)}")
+    except Exception as e:
+        print(f"   ❌ 失败: {e}")
 
-# 3. 文档工具
-print("\n3️⃣ 注册文档工具...")
-try:
-    import tools.document_tools  # noqa
-    doc_tools = [t for t in registry._tools.keys() if any(k in t for k in ['pdf_', 'docx_', 'xlsx_'])]
-    print(f"   ✅ 文档工具 ({len(doc_tools)}): {', '.join(doc_tools)}")
-except Exception as e:
-    print(f"   ❌ 文档工具注册失败: {e}")
+    # 3. 文档工具
+    print("\n3️⃣ 注册文档工具...")
+    try:
+        import tools.document_tools  # noqa
+        doc = [t for t in registry._tools.keys() if any(k in t for k in ['pdf_', 'docx_', 'xlsx_'])]
+        print(f"   ✅ 文档工具 ({len(doc)}): {', '.join(doc)}")
+    except Exception as e:
+        print(f"   ❌ 失败: {e}")
 
-# 汇总
-total = len(registry._tools)
-print(f"\n✅ 注册完成！总计 {total} 个工具（新增 {total - before} 个）")
+    # 4. 附加工具（浏览器、Shell、Memory等）
+    print("\n4️⃣ 注册附加工具...")
+    try:
+        import tools.additional_tools  # noqa
+        additional = [
+            'browser_open', 'browser_snapshot',
+            'shell_exec',
+            'memory_search', 'memory_write',
+            'find_skills',
+            'self_improve_log',
+            'ocr_recognize'
+        ]
+        # 过滤已注册的
+        new_added = [t for t in additional if t in registry._tools]
+        print(f"   ✅ 附加工具 ({len(new_added)}): {', '.join(new_added)}")
+    except Exception as e:
+        print(f"   ❌ 失败: {e}")
 
-# 列出所有工具
-print("\n📋 所有工具清单:")
-for i, name in enumerate(sorted(registry._tools.keys()), 1):
-    tool = registry.get(name)
-    print(f"  {i:2d}. {name:25s} [{tool.category}] {'(需确认)' if tool.requires_confirmation else ''}")
+    # 汇总
+    total = len(registry._tools)
+    added = total - before
+    print(f"\n✅ 注册完成！总计 {total} 个工具（新增 {added} 个）")
 
-# 输出部分 Schema 示例
-print("\n📝 Schema 示例（3 个工具）:")
-import json
-for name in ['file_write', 'web_search', 'pdf_extract_text']:
-    tool = registry.get(name)
-    if tool:
-        print(f"\n### {name}")
-        print(json.dumps(tool.to_schema(), indent=2, ensure_ascii=False))
+    # 输出摘要
+    print("\n" + "="*60)
+    print("📋 工具分类统计:")
+    categories = {}
+    for tool in registry._tools.values():
+        cat = tool.category
+        if cat not in categories:
+            categories[cat] = []
+        categories[cat].append(tool.name)
 
-print("\n🎉 系统就绪！可通过 tools.registry 访问")
+    for cat, names in sorted(categories.items()):
+        print(f"  {cat:20s} ({len(names)}): {', '.join(sorted(names))}")
+
+    print("\n🎉 系统就绪！可通过 `from tools import registry` 访问")
+    print("   使用: registry.list_tools() 查看所有工具 Schema")
+
+if __name__ == "__main__":
+    run_registration()
