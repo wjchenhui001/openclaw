@@ -1,0 +1,43 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.mo
+.mypy_cache/
+.dmypy.json
+
+# 媒体文件
+media/inbound/
+media/audio/
+
+# 测试文件
+test_*.pdf
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 备份与临时
+workspace-backup-*
+/tmp/openclaw-backup-notify/
