@@ -1,3 +1,6 @@
+# 临时状态文件
+*.flag
+
 # Python
 .venv/
 venv/
