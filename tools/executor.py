@@ -42,8 +42,9 @@ class ToolResult:
 class ToolExecutor:
     """工具执行器 - 核心类"""
 
-    def __init__(self, auto_confirm: bool = False):
+    def __init__(self, auto_confirm: bool = False, max_retries: int = 2):
         self.auto_confirm = auto_confirm
+        self.max_retries = max_retries
         self.confirmation_policy = {
             "file_write": "always",
             "file_delete": "always",
@@ -53,6 +54,17 @@ class ToolExecutor:
             "web_search": "never",
         }
         self.registry = global_registry
+
+    def _classify_error(self, error: Exception) -> str:
+        """错误分类 - 决定是否重试"""
+        error_str = str(error).lower()
+        if any(kw in error_str for kw in ['timeout', 'connection', 'network', 'econnreset']):
+            return "NETWORK"
+        if any(kw in error_str for kw in ['429', 'too many requests', 'rate limit', 'quota', 'overloaded']):
+            return "RATE_LIMIT"
+        if any(kw in error_str for kw in ['unavailable', 'maintenance', 'service down']):
+            return "SERVICE"
+        return "FATAL"
 
     def needs_confirmation(self, tool_name: str, arguments: Dict[str, Any]) -> bool:
         policy = self.confirmation_policy.get(tool_name, "never")
@@ -92,29 +104,42 @@ class ToolExecutor:
 
         if self.needs_confirmation(tool_use.name, tool_use.arguments):
             return ToolResult(
-                tool_use_id=tool_use.id or "",
+                tool_use_id=tue.id or "",
                 tool_name=tool_use.name,
                 status="cancelled",
                 content=None,
                 error="Requires user confirmation (dangerous operation)"
             )
 
-        try:
-            result = tool.function(**tool_use.arguments)
-            return ToolResult(
-                tool_use_id=tool_use.id or "",
-                tool_name=tool_use.name,
-                status="success",
-                content=result
-            )
-        except Exception as e:
-            return ToolResult(
-                tool_use_id=tool_use.id or "",
-                tool_name=tool_use.name,
-                status="error",
-                content=None,
-                error=str(e)
-            )
+        last_exception = None
+        for attempt in range(self.max_retries + 1):
+            try:
+                result = tool.function(**tool_use.arguments)
+                return ToolResult(
+                    tool_use_id=tool_use.id or "",
+                    tool_name=tool_use.name,
+                    status="success",
+                    content=result,
+                    metadata={"attempt": attempt + 1}
+                )
+            except Exception as e:
+                last_exception = e
+                category = self._classify_error(e)
+
+                if attempt < self.max_retries and category in ["NETWORK", "RATE_LIMIT", "SERVICE"]:
+                    backoff = 2 ** attempt
+                    await asyncio.sleep(backoff)
+                else:
+                    break
+
+        return ToolResult(
+            tool_use_id=tool_use.id or "",
+            tool_name=tool_use.name,
+            status="error",
+            content=None,
+            error=str(last_exception),
+            metadata={"attempts": self.max_retries + 1, "category": self._classify_error(last_exception)}
+        )
 
     async def execute_batch(self, tool_uses: List[ToolUse]) -> List[ToolResult]:
         tasks = [self.execute(tue) for tue in tool_uses]

@@ -7,6 +7,13 @@ from dataclasses import dataclass, field
 from datetime import datetime
 import json
 import inspect
+import sys
+from pathlib import Path
+
+# 确保 tools/ 所在目录在 Python 路径中
+TOOLS_DIR = Path(__file__).parent.resolve()
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
 
 # ============================================
 # 数据类
@@ -126,7 +133,7 @@ def tool(name: str, description: str, category: str = "general", requires_confir
     return decorator
 
 def execute_tool_call(tool_name: str, arguments: Dict[str, Any], auto_confirm: bool = False) -> Dict[str, Any]:
-    """执行工具调用"""
+    """执行工具调用（简单版本，无重试）"""
     tool = registry.get(tool_name)
     if not tool:
         return {"status": "error", "error": f"Tool not found: {tool_name}"}
@@ -159,3 +166,22 @@ __all__ = [
     'Tool', 'ToolParameter', 'ToolRegistry',
     'tool', 'execute_tool_call', 'registry'
 ]
+
+# 自动加载所有工具模块（延迟导入）
+def _load_all_tools():
+    """导入所有工具子模块，触发 @tool 装饰器注册"""
+    import importlib
+    import pkgutil
+
+    # 获取当前包的所有子模块（排除 __init__）
+    package_name = __name__
+    for _, mod_name, is_pkg in pkgutil.iter_modules(__path__):
+        if mod_name.startswith('__'):
+            continue
+        try:
+            importlib.import_module(f"{package_name}.{mod_name}")
+        except Exception as e:
+            print(f"[tools] Warning: failed to load module {mod_name}: {e}", file=sys.stderr)
+
+# 立即加载
+_load_all_tools()

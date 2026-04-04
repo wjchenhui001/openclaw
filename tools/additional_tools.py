@@ -103,7 +103,10 @@ def memory_write(content: str, file: str = "memory/SESSION_MEMORY.md"):
     # 追加内容，带时间戳
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
     entry = f"\n## {timestamp}\n{content}\n"
-    memory_file.write_text(memory_file.read_text(encoding='utf-8') + entry, encoding='utf-8')
+    if memory_file.exists():
+        memory_file.write_text(memory_file.read_text(encoding='utf-8') + entry, encoding='utf-8')
+    else:
+        memory_file.write_text(f"# Session Memory\n{entry}", encoding='utf-8')
 
     return {"status": "success", "file": str(memory_file), "size": memory_file.stat().st_size}
 
