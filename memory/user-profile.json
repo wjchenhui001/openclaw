@@ -126,6 +126,14 @@
       "note": "用户对定时提醒的准时性要求极高，不接受延迟或遗漏。强调'到点提醒'，认为'经常不提醒'是不可接受的。",
       "recordedAt": "2026-04-05T00:39:00+08:00",
       "confidence": 1.0
+    },
+    {
+      "category": "automation",
+      "key": "daily_report_time",
+      "value": "09:00",
+      "note": "用户明确要求每天 9 点自动推送日报（已配置 launchd 定时任务）",
+      "recordedAt": "2026-04-05T03:24:00+08:00",
+      "confidence": 1.0
     }
   ],
   "taboos": [
@@ -149,7 +157,7 @@
   "dailySummaries": {},
   "meta": {
     "version": 1,
-    "lastUpdated": "2026-04-05T01:14:00+08:00",
+    "lastUpdated": "2026-04-05T09:00:00+08:00",
     "totalInteractions": 16,
     "autoBackup": true
   }
