@@ -67,6 +67,14 @@ class ToolExecutor:
         return "FATAL"
 
     def needs_confirmation(self, tool_name: str, arguments: Dict[str, Any]) -> bool:
+        # 先检查工具自身的 requires_confirmation 属性
+        tool = self.registry.get(tool_name)
+        if tool and getattr(tool, 'requires_confirmation', False):
+            if self.auto_confirm:
+                return False
+            return True
+        
+        # 再检查全局策略
         policy = self.confirmation_policy.get(tool_name, "never")
         if policy == "never":
             return False
