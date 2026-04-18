@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T03:43:32.779Z",
+  "updatedAt": "2026-04-18T15:46:24.139Z",
   "entries": {
     "memory:memory/2026-04-11.md:3:3": {
       "key": "memory:memory/2026-04-11.md:3:3",
@@ -15,7 +15,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-11T19:00:00.332Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "2213b71c3c98"
       ],
@@ -22352,7 +22352,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T00:30:01.022Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -22387,7 +22387,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T00:30:01.022Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -22422,7 +22422,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T00:30:01.022Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -30596,7 +30596,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T00:30:00.913Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -30630,7 +30630,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T00:30:00.913Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -30819,7 +30819,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T02:00:01.006Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -31042,7 +31042,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T01:00:00.749Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -31075,7 +31075,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T01:00:00.749Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -31108,7 +31108,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T01:00:00.749Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -45184,7 +45184,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T04:46:22.668Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
@@ -45216,7 +45216,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T04:46:22.668Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
@@ -45248,7 +45248,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T04:46:22.668Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
@@ -77956,14 +77956,14 @@
       "startLine": 278,
       "endLine": 281,
       "source": "memory",
-      "snippet": "Reflections: Theme: `user` kept surfacing across 1435 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1443 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
       "recallCount": 0,
       "dailyCount": 1,
       "groundedCount": 0,
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T03:04:02.278Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -77994,7 +77994,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T03:04:02.278Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -78025,7 +78025,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T03:04:02.278Z",
-      "lastRecalledAt": "2026-04-18T03:43:32.779Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -78317,6 +78317,1897 @@
         "48-51",
         "52-55",
         "56-59",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 11:48 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 370 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:18-21, memory/2026-04-12.md:22-25, memory/2026-04-12.md:26-29; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "18-21",
+        "22-25",
+        "26-29",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:06 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 205 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "dreams/session-corpus/2026-04-09",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:02 GMT+8] Write a dream diary entry from these memory fragments: - Assistant: 🛁 **洗澡时间到啦！** 该去洗澡啦！洗个热水澡放松一下~ 记得查看日历和任务提醒哦！ （这是你的18:04洗澡提醒） - Assistant: ☕ **买咖啡时间到啦！** 该去买咖啡啦！享受一杯美味的咖啡提提神~ 记得查看日历和任务提醒哦！ （这是你的18:11买咖啡提醒） - User: System: [2026-04-10 17:54:4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 11:58 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 46 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:18 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-09 02:10:32 GMT+8] Feishu[meitian-ribao] DM | ou_b758563c8d2148fa94b4e3e45961f2e2 [msg:om_x100b525defb86ca4b4b63b23ab8b099] Conversation info (untrusted metadata): `",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "meitian-ribao",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - User: [cron:3bc4af88-825c-4aad-bbb7-778b12416d82 天气推送-晚上8点] 请查询佛山市今天的详细天气（当前实况、今日概况、未来三天、出行建议），格式要丰富完整，然后通过飞书发送。 Current time: Thursday, April 9th, 2026 — 20:00 (Asia/Shanghai) / 2026-04-09 12:00 UTC Return your summa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "天气推送-晚上8点",
+        "asia/shanghai",
+        "user",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 11:55 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-10 19:25:00 GMT+8] Feishu[feishu-2168068c] DM | ou_afce3fa1530063f7eada681951da6e82 [msg:om_x100b52b9ae6080a0b2c316a2c522605] Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "feishu-2168068c",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 11:44 GMT+8] Write a dream diary entry from these memory fragments: - **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:14 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 221 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:48-51, memory/2026-04-12.md:52-55, memory/2026-04-12.md:56-59; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "48-51",
+        "52-55",
+        "56-59",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/2026-04-18.md:258:261": {
+      "key": "memory:memory/2026-04-18.md:258:261",
+      "path": "memory/2026-04-18.md",
+      "startLine": 258,
+      "endLine": 261,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1496 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:262:265": {
+      "key": "memory:memory/2026-04-18.md:262:265",
+      "path": "memory/2026-04-18.md",
+      "startLine": 262,
+      "endLine": 265,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1085 memories.; confidence: 0.85; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.85",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:268:270": {
+      "key": "memory:memory/2026-04-18.md:268:270",
+      "path": "memory/2026-04-18.md",
+      "startLine": 268,
+      "endLine": 270,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Reflections: Theme: `user` kept surfacing across 1443 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:22:11.446Z",
+      "lastRecalledAt": "2026-04-18T04:22:11.446Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "dreams/session-c",
+        "user",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:51 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 221 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:48-51, memory/2026-04-12.md:52-55, memory/2026-04-12.md:56-59; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "48-51",
+        "52-55",
+        "56-59",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:25 GMT+8] Write a dream diary entry from these memory fragments: - **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:29 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 370 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:18-21, memory/2026-04-12.md:22-25, memory/2026-04-12.md:26-29; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "18-21",
+        "22-25",
+        "26-29",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - User: [cron:3bc4af88-825c-4aad-bbb7-778b12416d82 天气推送-晚上8点] 请查询佛山市今天的详细天气（当前实况、今日概况、未来三天、出行建议），格式要丰富完整，然后通过飞书发送。 Current time: Thursday, April 9th, 2026 — 20:00 (Asia/Shanghai) / 2026-04-09 12:00 UTC Return your summa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "天气推送-晚上8点",
+        "asia/shanghai",
+        "user",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:61:61": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:61:61",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 61,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:40 GMT+8] Write a dream diary entry from these memory fragments: - Assistant: 🛁 **洗澡时间到啦！** 该去洗澡啦！洗个热水澡放松一下~ 记得查看日历和任务提醒哦！ （这是你的18:04洗澡提醒） - Assistant: ☕ **买咖啡时间到啦！** 该去买咖啡啦！享受一杯美味的咖啡提提神~ 记得查看日历和任务提醒哦！ （这是你的18:11买咖啡提醒） - User: System: [2026-04-10 17:54:4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:62:62": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:62:62",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 62,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:33 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-10 19:25:00 GMT+8] Feishu[feishu-2168068c] DM | ou_afce3fa1530063f7eada681951da6e82 [msg:om_x100b52b9ae6080a0b2c316a2c522605] Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "feishu-2168068c",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:63:63": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:63:63",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 63,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:36 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 46 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:64:64": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:64:64",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 64,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:44 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 205 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "dreams/session-corpus/2026-04-09",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:65:65": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:65:65",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 65,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 12:55 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-09 02:10:32 GMT+8] Feishu[meitian-ribao] DM | ou_b758563c8d2148fa94b4e3e45961f2e2 [msg:om_x100b525defb86ca4b4b63b23ab8b099] Conversation info (untrusted metadata): `",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "meitian-ribao",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/2026-04-18.md:268:271": {
+      "key": "memory:memory/2026-04-18.md:268:271",
+      "path": "memory/2026-04-18.md",
+      "startLine": 268,
+      "endLine": 271,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1465 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:272:275": {
+      "key": "memory:memory/2026-04-18.md:272:275",
+      "path": "memory/2026-04-18.md",
+      "startLine": 272,
+      "endLine": 275,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1083 memories.; confidence: 0.86; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.86",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:278:280": {
+      "key": "memory:memory/2026-04-18.md:278:280",
+      "path": "memory/2026-04-18.md",
+      "startLine": 278,
+      "endLine": 280,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:66:66": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:66:66",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 66,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Reflections: Theme: `user` kept surfacing across 1454 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T04:59:23.226Z",
+      "lastRecalledAt": "2026-04-18T04:59:23.226Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "dreams/session-c",
+        "user",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:67:67": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:67:67",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 67,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:29 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 221 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:48-51, memory/2026-04-12.md:52-55, memory/2026-04-12.md:56-59; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "48-51",
+        "52-55",
+        "56-59",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:68:68": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:68:68",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 68,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:14 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 46 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:69:69": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:69:69",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 69,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - User: [cron:3bc4af88-825c-4aad-bbb7-778b12416d82 天气推送-晚上8点] 请查询佛山市今天的详细天气（当前实况、今日概况、未来三天、出行建议），格式要丰富完整，然后通过飞书发送。 Current time: Thursday, April 9th, 2026 — 20:00 (Asia/Shanghai) / 2026-04-09 12:00 UTC Return your summa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "天气推送-晚上8点",
+        "asia/shanghai",
+        "user",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:70:70": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:70:70",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 70,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:03 GMT+8] Write a dream diary entry from these memory fragments: - **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:71:71": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:71:71",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 71,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:22 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 205 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "dreams/session-corpus/2026-04-09",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:72:72": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:72:72",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 72,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:06 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 370 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:18-21, memory/2026-04-12.md:22-25, memory/2026-04-12.md:26-29; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "18-21",
+        "22-25",
+        "26-29",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:73:73": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:73:73",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 73,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:33 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-09 02:10:32 GMT+8] Feishu[meitian-ribao] DM | ou_b758563c8d2148fa94b4e3e45961f2e2 [msg:om_x100b525defb86ca4b4b63b23ab8b099] Conversation info (untrusted metadata): `",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "meitian-ribao",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:74:74": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:74:74",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 74,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:10 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-10 19:25:00 GMT+8] Feishu[feishu-2168068c] DM | ou_afce3fa1530063f7eada681951da6e82 [msg:om_x100b52b9ae6080a0b2c316a2c522605] Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "feishu-2168068c",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:75:75": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:75:75",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 75,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:18 GMT+8] Write a dream diary entry from these memory fragments: - Assistant: 🛁 **洗澡时间到啦！** 该去洗澡啦！洗个热水澡放松一下~ 记得查看日历和任务提醒哦！ （这是你的18:04洗澡提醒） - Assistant: ☕ **买咖啡时间到啦！** 该去买咖啡啦！享受一杯美味的咖啡提提神~ 记得查看日历和任务提醒哦！ （这是你的18:11买咖啡提醒） - User: System: [2026-04-10 17:54:4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/2026-04-18.md:248:251": {
+      "key": "memory:memory/2026-04-18.md:248:251",
+      "path": "memory/2026-04-18.md",
+      "startLine": 248,
+      "endLine": 251,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1487 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:252:255": {
+      "key": "memory:memory/2026-04-18.md:252:255",
+      "path": "memory/2026-04-18.md",
+      "startLine": 252,
+      "endLine": 255,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1085 memories.; confidence: 0.86; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.86",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:258:260": {
+      "key": "memory:memory/2026-04-18.md:258:260",
+      "path": "memory/2026-04-18.md",
+      "startLine": 258,
+      "endLine": 260,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:76:76": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:76:76",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 76,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Reflections: Theme: `user` kept surfacing across 1465 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T05:37:48.290Z",
+      "lastRecalledAt": "2026-04-18T05:37:48.290Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "dreams/session-c",
+        "user",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:77:77": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:77:77",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 77,
+      "endLine": 77,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:45 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 370 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:18-21, memory/2026-04-12.md:22-25, memory/2026-04-12.md:26-29; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "18-21",
+        "22-25",
+        "26-29",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:78:78": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:78:78",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - User: [cron:3bc4af88-825c-4aad-bbb7-778b12416d82 天气推送-晚上8点] 请查询佛山市今天的详细天气（当前实况、今日概况、未来三天、出行建议），格式要丰富完整，然后通过飞书发送。 Current time: Thursday, April 9th, 2026 — 20:00 (Asia/Shanghai) / 2026-04-09 12:00 UTC Return your summa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "天气推送-晚上8点",
+        "asia/shanghai",
+        "user",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:79:79": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:79:79",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 79,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 14:09 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 221 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:48-51, memory/2026-04-12.md:52-55, memory/2026-04-12.md:56-59; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "48-51",
+        "52-55",
+        "56-59",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:80:80": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:80:80",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 80,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:49 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-10 19:25:00 GMT+8] Feishu[feishu-2168068c] DM | ou_afce3fa1530063f7eada681951da6e82 [msg:om_x100b52b9ae6080a0b2c316a2c522605] Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "feishu-2168068c",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:81:81": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:81:81",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 81,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:41 GMT+8] Write a dream diary entry from these memory fragments: - **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:82:82": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:82:82",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 82,
+      "endLine": 82,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 14:16 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-09 02:10:32 GMT+8] Feishu[meitian-ribao] DM | ou_b758563c8d2148fa94b4e3e45961f2e2 [msg:om_x100b525defb86ca4b4b63b23ab8b099] Conversation info (untrusted metadata): `",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "meitian-ribao",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:83:83": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:83:83",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 83,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:57 GMT+8] Write a dream diary entry from these memory fragments: - Assistant: 🛁 **洗澡时间到啦！** 该去洗澡啦！洗个热水澡放松一下~ 记得查看日历和任务提醒哦！ （这是你的18:04洗澡提醒） - Assistant: ☕ **买咖啡时间到啦！** 该去买咖啡啦！享受一杯美味的咖啡提提神~ 记得查看日历和任务提醒哦！ （这是你的18:11买咖啡提醒） - User: System: [2026-04-10 17:54:4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:84:84": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:84:84",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 84,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 13:53 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 46 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:85:85": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:85:85",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 85,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 14:01 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 205 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T06:21:00.218Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "dreams/session-corpus/2026-04-09",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/2026-04-18.md:253:256": {
+      "key": "memory:memory/2026-04-18.md:253:256",
+      "path": "memory/2026-04-18.md",
+      "startLine": 253,
+      "endLine": 256,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1496 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T13:16:24.104Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:257:260": {
+      "key": "memory:memory/2026-04-18.md:257:260",
+      "path": "memory/2026-04-18.md",
+      "startLine": 257,
+      "endLine": 260,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1085 memories.; confidence: 0.85; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T13:16:24.104Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.85",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:263:265": {
+      "key": "memory:memory/2026-04-18.md:263:265",
+      "path": "memory/2026-04-18.md",
+      "startLine": 263,
+      "endLine": 265,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T06:21:00.218Z",
+      "lastRecalledAt": "2026-04-18T13:16:24.104Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:86:86": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:86:86",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 86,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:16 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `user` kept surfacing across 1486 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:16:24.217Z",
+      "lastRecalledAt": "2026-04-18T12:16:24.217Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:87:87": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:87:87",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 87,
+      "endLine": 87,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:32 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 46 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:88:88": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:88:88",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 88,
+      "endLine": 88,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:20 GMT+8] Write a dream diary entry from these memory fragments: - **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:89:89": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:89:89",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 89,
+      "endLine": 89,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Reflections: Theme: `assistant` kept surfacing across 206 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:5-5, memory/.dreams/sessi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "5-5",
+        "dreams/sessi",
+        "user",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:90:90": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:90:90",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 90,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:48 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 221 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:48-51, memory/2026-04-12.md:52-55, memory/2026-04-12.md:56-59; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "48-51",
+        "52-55",
+        "56-59",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:91:91": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:91:91",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 91,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:52 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-09 02:10:32 GMT+8] Feishu[meitian-ribao] DM | ou_b758563c8d2148fa94b4e3e45961f2e2 [msg:om_x100b525defb86ca4b4b63b23ab8b099] Conversation info (untrusted metadata): `",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "meitian-ribao",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:92:92": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:92:92",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 92,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:28 GMT+8] Write a dream diary entry from these memory fragments: - User: System: [2026-04-10 19:25:00 GMT+8] Feishu[feishu-2168068c] DM | ou_afce3fa1530063f7eada681951da6e82 [msg:om_x100b52b9ae6080a0b2c316a2c522605] Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "feishu-2168068c",
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:93:93": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:93:93",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 93,
+      "endLine": 93,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:36 GMT+8] Write a dream diary entry from these memory fragments: - Assistant: 🛁 **洗澡时间到啦！** 该去洗澡啦！洗个热水澡放松一下~ 记得查看日历和任务提醒哦！ （这是你的18:04洗澡提醒） - Assistant: ☕ **买咖啡时间到啦！** 该去买咖啡啦！享受一杯美味的咖啡提提神~ 记得查看日历和任务提醒哦！ （这是你的18:11买咖啡提醒） - User: System: [2026-04-10 17:54:4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "user",
+        "sat",
+        "gmt",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:94:94": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:94:94",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 94,
+      "endLine": 94,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - User: [cron:3bc4af88-825c-4aad-bbb7-778b12416d82 天气推送-晚上8点] 请查询佛山市今天的详细天气（当前实况、今日概况、未来三天、出行建议），格式要丰富完整，然后通过飞书发送。 Current time: Thursday, April 9th, 2026 — 20:00 (Asia/Shanghai) / 2026-04-09 12:00 UTC Return your summa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "天气推送-晚上8点",
+        "asia/shanghai",
+        "user",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:95:95": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:95:95",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 95,
+      "endLine": 95,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-18 20:24 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `reflections` kept surfacing across 370 memories.; confidence: 1.00; evidence: memory/2026-04-12.md:18-21, memory/2026-04-12.md:22-25, memory/2026-04-12.md:26-29; note:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T12:56:20.276Z",
+      "lastRecalledAt": "2026-04-18T12:56:20.276Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-12.md",
+        "18-21",
+        "22-25",
+        "26-29",
         "user",
         "sat",
         "gmt"
