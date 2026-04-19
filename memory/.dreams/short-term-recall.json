@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T15:46:24.139Z",
+  "updatedAt": "2026-04-18T19:00:45.865Z",
   "entries": {
     "memory:memory/2026-04-11.md:3:3": {
       "key": "memory:memory/2026-04-11.md:3:3",
@@ -15,7 +15,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-11T19:00:00.332Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "2213b71c3c98"
       ],
@@ -22352,7 +22352,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T00:30:01.022Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -22387,7 +22387,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T00:30:01.022Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -22422,7 +22422,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T00:30:01.022Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -30596,7 +30596,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T00:30:00.913Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -30630,7 +30630,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T00:30:00.913Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -30819,7 +30819,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T02:00:01.006Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -31042,7 +31042,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T01:00:00.749Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -31075,7 +31075,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T01:00:00.749Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -31108,7 +31108,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T01:00:00.749Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -45184,7 +45184,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T04:46:22.668Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
@@ -45216,7 +45216,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T04:46:22.668Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
@@ -45248,7 +45248,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T04:46:22.668Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
@@ -78614,7 +78614,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T04:22:11.446Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T16:16:24.334Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -78645,7 +78645,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T04:22:11.446Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T16:16:24.334Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -78676,7 +78676,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T04:22:11.446Z",
-      "lastRecalledAt": "2026-04-18T15:46:24.139Z",
+      "lastRecalledAt": "2026-04-18T16:16:24.334Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -80211,6 +80211,518 @@
         "user",
         "sat",
         "gmt"
+      ]
+    },
+    "memory:memory/2026-04-19.md:258:261": {
+      "key": "memory:memory/2026-04-19.md:258:261",
+      "path": "memory/2026-04-19.md",
+      "startLine": 258,
+      "endLine": 261,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1496 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T16:46:24.245Z",
+      "lastRecalledAt": "2026-04-18T16:46:24.245Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:262:265": {
+      "key": "memory:memory/2026-04-19.md:262:265",
+      "path": "memory/2026-04-19.md",
+      "startLine": 262,
+      "endLine": 265,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1085 memories.; confidence: 0.85; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T16:46:24.245Z",
+      "lastRecalledAt": "2026-04-18T16:46:24.245Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.85",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:268:270": {
+      "key": "memory:memory/2026-04-19.md:268:270",
+      "path": "memory/2026-04-19.md",
+      "startLine": 268,
+      "endLine": 270,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T16:46:24.245Z",
+      "lastRecalledAt": "2026-04-18T16:46:24.245Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/2026-04-19.md:273:276": {
+      "key": "memory:memory/2026-04-19.md:273:276",
+      "path": "memory/2026-04-19.md",
+      "startLine": 273,
+      "endLine": 276,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1498 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T16:46:24.245Z",
+      "lastRecalledAt": "2026-04-18T17:16:24.146Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:277:280": {
+      "key": "memory:memory/2026-04-19.md:277:280",
+      "path": "memory/2026-04-19.md",
+      "startLine": 277,
+      "endLine": 280,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1087 memories.; confidence: 0.85; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T16:46:24.245Z",
+      "lastRecalledAt": "2026-04-18T17:16:24.146Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.85",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:283:285": {
+      "key": "memory:memory/2026-04-19.md:283:285",
+      "path": "memory/2026-04-19.md",
+      "startLine": 283,
+      "endLine": 285,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T16:46:24.245Z",
+      "lastRecalledAt": "2026-04-18T17:16:24.146Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/2026-04-19.md:268:271": {
+      "key": "memory:memory/2026-04-19.md:268:271",
+      "path": "memory/2026-04-19.md",
+      "startLine": 268,
+      "endLine": 271,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1499 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T17:16:24.146Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:272:275": {
+      "key": "memory:memory/2026-04-19.md:272:275",
+      "path": "memory/2026-04-19.md",
+      "startLine": 272,
+      "endLine": 275,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1088 memories.; confidence: 0.85; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T17:16:24.146Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.85",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:278:280": {
+      "key": "memory:memory/2026-04-19.md:278:280",
+      "path": "memory/2026-04-19.md",
+      "startLine": 278,
+      "endLine": 280,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T17:16:24.146Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-19 02:55:01 GMT+8] Feishu[default] DM | 陈飞阳 (ou_d6540e9660ba1104c510007d85078d02) [msg:om_x100b51096aa314a4b2005c4ff626893] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51096aa314a4b2005c4ff626893\", \"sender_id\": \"ou_d6540e9660ba1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:03.798Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-d6540e9660ba1",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "msg"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-19 02:56:52 GMT+8] Feishu[default] DM | 陈飞阳 (ou_d6540e9660ba1104c510007d85078d02) [msg:om_x100b5109654a5ca0b25e9a22ebc5b33] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5109654a5ca0b25e9a22ebc5b33\", \"sender_id\": \"ou_d6540e9660ba1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:03.798Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-d6540e9660ba1",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "msg"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-19 02:57:09 GMT+8] Feishu[default] DM | 陈飞阳 (ou_d6540e9660ba1104c510007d85078d02) [msg:om_x100b51096254a4a8b28c12d936d9b3c] Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51096254a4a8b28c12d936d9b3c\", \"sender_id\": \"ou_d6540e9660ba1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:03.798Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-d6540e9660ba1",
+        "user",
+        "system",
+        "gmt",
+        "feishu",
+        "msg"
+      ]
+    },
+    "memory:memory/2026-04-19.md:278:281": {
+      "key": "memory:memory/2026-04-19.md:278:281",
+      "path": "memory/2026-04-19.md",
+      "startLine": 278,
+      "endLine": 281,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 1499 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:2-2, memory/.dreams/session-corpus/2026-04-09.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:00:03.798Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "2-2",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:282:285": {
+      "key": "memory:memory/2026-04-19.md:282:285",
+      "path": "memory/2026-04-19.md",
+      "startLine": 282,
+      "endLine": 285,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 1088 memories.; confidence: 0.85; evidence: memory/.dreams/session-corpus/2026-04-09.txt:3-3, memory/.dreams/session-corpus/2026-04-09.txt:4-4, memory/.dreams/session-corpus/2026-04-09.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:00:03.798Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.85",
+        "3-3",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:288:290": {
+      "key": "memory:memory/2026-04-19.md:288:290",
+      "path": "memory/2026-04-19.md",
+      "startLine": 288,
+      "endLine": 290,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: **3. 偏好数据库建设** - `memory/user-profile.json` 新增 9 条偏好记录（总计 19 条） - 新增领域：备份策略、认证方式、token共享、完成导向、技术认知 **4. 系统备份尝试** - 配置 Git 远程仓库备份（HTTPS + token） - 生成 ED25519 SSH 密钥 - 网络超时等待后续解决 ### 用户偏好新增 (今日提取) - 备份: 需要系统备份协助，选择 Git 远程仓库 - 认证: 偏好 HTTPS + Personal Access",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:00:03.798Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "memory/user-profile.json",
+        "possible",
+        "lasting",
+        "truths",
+        "偏好",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [Sun 2026-04-19 03:00 GMT+8] Write a dream diary entry from these memory fragments: - Reflections: Theme: `user` kept surfacing across 1499 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-09.txt:1-1, memory/.dreams/session-corpus/2026-04-09.txt:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:03.798Z",
+      "lastRecalledAt": "2026-04-18T19:00:03.798Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "user",
+        "sun",
+        "gmt",
+        "write",
+        "dream",
+        "diary"
       ]
     }
   }
